@@ -8,7 +8,7 @@ export default function HeroSection() {
                     <div className="row hero-wrap">
                         <div className="col-md-6 xs-padding">
                             <div className="hero-content">
-                                <h1>Amary Consultancy Services <br/>Powering Innovation with Software Solutions.</h1>
+                                <h1>Amari Consultancy Services <br/>Powering Innovation with Software Solutions.</h1>
                                 <p>Cultivating Innovation and Streamlining Operations: <br/>Empowering Your Business through the Transformational Force of Technology.</p>
                                 <a href="#" className="default-btn">Get Started Now</a>
                             </div>
