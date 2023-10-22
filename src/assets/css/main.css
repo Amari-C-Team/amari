@@ -254,9 +254,9 @@ body.loaded #preloader{
     margin-bottom: 15px;
 }
 .default-btn{
-    background: #ffa713;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffa713, #ffd200);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffa713, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #d0ece6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d0ece6, #89CDAC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d0ece6, #89CDAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-transform: uppercase;
     color: #fff;
     font-size: 12px;
@@ -271,9 +271,9 @@ body.loaded #preloader{
     transition: all 0.3s ease-in-out;
 }
 .default-btn:hover{
-    background: #ffa713;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffd200, #ffa713);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffd200, #ffa713); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #d0ece6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89CDAC, #d0ece6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89CDAC, #d0ece6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
     transition: all 0.3s ease-in-out;
 }
@@ -313,7 +313,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .navbar-fixed-top ul.nav > li > a:hover,
 .navbar-fixed-top ul.nav > li > a:focus,
 .navbar-fixed-top ul.nav > li.active > a{
-    color: #ffa713;
+    color: #d0ece6;
 }
 .logo-light,
 .navbar-fixed-top .logo-light,
@@ -383,13 +383,13 @@ ul.nav li a:hover,
 ul.nav li a:focus,
 ul.nav li a.active{
     background: none;
-    color: #ffa713;
+    color: #79d4c0;
     opacity: 1;
 }
 .mainmenu ul.nav li a.signup-btn{
-    background: #ffa713;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffa713, #ffd200);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffa713, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #86ffe5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d0ece6, #89CDAC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d0ece6, #89CDAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 2px;
     display: inline-block;
     padding: 10px 30px;
@@ -409,9 +409,9 @@ ul.nav li a.active{
 
 }
 .navbar-fixed-top .mainmenu ul.nav li a.signup-btn{
-    background: #ffa713;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffa713, #ffd200);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffa713, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #d0ece6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d0ece6, #89CDAC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d0ece6, #89CDAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
 }
 /*Mobile Menu */
@@ -536,13 +536,13 @@ ul.nav li a.active{
 .content-list li:before{
     position: absolute;
     content: "";
-    background: #ffa713;
+    background: #d0ece6;
     width: 8px;
     height: 8px;
     border-radius: 50%;
     left: 0;
     top: 15px;
-    border: 3px solid #ffd200;
+    border: 3px solid #89CDAC;
     padding: 5px;
 }
 
@@ -622,7 +622,7 @@ ul.nav li a.active{
     border-radius: 30px;
 }
 .testimonial-carousel .owl-nav div:hover{
-    color: #ffa713;
+    color: #d0ece6;
 }
 
 /* ==========================================================================
@@ -726,7 +726,7 @@ ul.nav li a.active{
     border-radius: 2px;
 }
 .subscribe-form .submit-btn{
-    background-color: #ffa713;
+    background-color: #d0ece6;
     text-transform: uppercase;
     color: #fff;
     font-size: 12px;
@@ -746,7 +746,7 @@ ul.nav li a.active{
     display: none;
     margin-top: 15px;
     padding: 10px;
-    border: 1px solid #ffa713;
+    border: 1px solid #d0ece6;
 }
 #subscribe-result.subs-result{
     display: block;
@@ -778,12 +778,12 @@ ul.nav li a.active{
     color: #555;
 }
 .widget-link li a:hover{
-    color: #ffa713;
+    color: #d0ece6;
     text-decoration: underline;
 }
 .widget-link li i{
     margin-right: 10px;
-    color: #ffa713;
+    color: #d0ece6;
 }
 .widget-social{
     margin-top: 20px;
@@ -799,12 +799,12 @@ ul.nav li a.active{
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-    color: #ffa713;
+    color: #d0ece6;
     font-size: 12px;
     margin-right: 5px;
 }
 .widget-social li a:hover{
-    background-color: #ffa713;
+    background-color: #d0ece6;
     color: #fff;
 }
 
@@ -828,7 +828,7 @@ ul.nav li a.active{
    Scroll To Top
    ========================================================================== */
 #scroll-to-top{
-    background-color: #ffa713;
+    background-color: #d0ece6;
     display: none;
     width: 45px;
     height: 45px;
@@ -843,7 +843,7 @@ ul.nav li a.active{
     z-index: 999;
 }
 #scroll-to-top:hover{
-    background-color: #ffa713;
+    background-color: #d0ece6;
     color: #fff;
     opacity: 0.8;
 }

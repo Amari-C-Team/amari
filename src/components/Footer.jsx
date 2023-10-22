@@ -12,7 +12,7 @@ export default function Footer() {
                         <div className="widget-content">
                             <h3>AMARI</h3>
                             <p>Cultivating Innovation and Streamlining Operations:
-                Empowering Your Business through the Transformational Force of Technology.</p>
+                                Empowering Your Business through the Transformational Force of Technology.</p>
                 <ul className="widget-social">
                     <li>
                         <a href="#"><FaFacebook /></a>
@@ -36,7 +36,6 @@ export default function Footer() {
                             <ul className="widget-link">
                                 <li><a href="#">About Us</a></li>
                                 <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Pricing Plan</a></li>
                                 <li><a href="#">Terms & Condition</a></li>
                                 <li><a href="#">Privecy Policy</a></li>
                             </ul>
