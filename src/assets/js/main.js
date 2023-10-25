@@ -34,58 +34,6 @@
         allowParentLinks: true
     });
 
-/*=========================================================================
-    Testimonial Carousel
-=========================================================================*/
-	$('#testimonial-carousel').owlCarousel({
-        loop: true,
-        margin: 25,
-        autoplay: true,
-        smartSpeed: 800,
-        nav: true,
-        navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right"></i>'],
-        dots: false,
-        responsive : {
-            0 : {
-                items: 1
-            },
-            480 : {
-                items: 1,
-            },
-            768 : {
-                items: 2,
-            },
-            992 : {
-                items: 2,
-            }
-        }
-    });
-
-/*=========================================================================
-    Sponsor Carousel
-=========================================================================*/
-	$('#sponsor-carousel').owlCarousel({
-        loop: true,
-        margin: 25,
-        autoplay: true,
-        smartSpeed: 800,
-        nav: false,
-        dots: false,
-        responsive : {
-            0 : {
-                items: 2
-            },
-            480 : {
-                items: 2,
-            },
-            768 : {
-                items: 3,
-            },
-            992 : {
-                items: 5,
-            }
-        }
-    });
 
 /*=========================================================================
 	Initialize smoothscroll plugin

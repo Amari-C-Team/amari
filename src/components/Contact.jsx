@@ -64,7 +64,7 @@ export default function Contact() {
                             <textarea className="form-control" rows="5" placeholder="Your Message" required></textarea>
                         </div>
 
-                        <button type="submit" className="btn btn-primary">Send Message</button>
+                        <button type="submit" className="send-msg-btn">Send Message</button>
                     </form>
                 </div>
             </div>

@@ -78,7 +78,7 @@ h3{
     font-weight: 500;
 }
 h4{
-    font-size: 16px;
+    font-size: 14px;
 }
 h5,h6{
     font-size: 14px;
@@ -169,7 +169,7 @@ section{ overflow-y: hidden; }
 .fz-22{ font-size: 22px; }
 .fz-20{ font-size: 20px; }
 .fz-18{ font-size: 18px; }
-.fz-16{ font-size: 16px; }
+.fz-16{ font-size: 14px; }
 .text-black{
     color: #253050;
 }
@@ -254,12 +254,12 @@ body.loaded #preloader{
     margin-bottom: 15px;
 }
 .default-btn{
-    background: #d0ece6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #d0ece6, #89CDAC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #d0ece6, #89CDAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #5af3d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5af3d2, #3ddc8f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5af3d2, #3ddc8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-transform: uppercase;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 2px;
     line-height: 50px;
     font-weight: 600;
@@ -271,9 +271,9 @@ body.loaded #preloader{
     transition: all 0.3s ease-in-out;
 }
 .default-btn:hover{
-    background: #d0ece6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #89CDAC, #d0ece6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #89CDAC, #d0ece6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #5af3d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3ddc8f, #5af3d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3ddc8f, #5af3d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
     transition: all 0.3s ease-in-out;
 }
@@ -313,7 +313,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .navbar-fixed-top ul.nav > li > a:hover,
 .navbar-fixed-top ul.nav > li > a:focus,
 .navbar-fixed-top ul.nav > li.active > a{
-    color: #d0ece6;
+    color: #5af3d2;
 }
 .logo-light,
 .navbar-fixed-top .logo-light,
@@ -388,13 +388,13 @@ ul.nav li a.active{
 }
 .mainmenu ul.nav li a.signup-btn{
     background: #86ffe5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #d0ece6, #89CDAC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #d0ece6, #89CDAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #5af3d2, #3ddc8f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5af3d2, #3ddc8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 2px;
     display: inline-block;
     padding: 10px 30px;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
     color: #fff!important;
     font-weight: 600;
     line-height: 25px;
@@ -409,9 +409,9 @@ ul.nav li a.active{
 
 }
 .navbar-fixed-top .mainmenu ul.nav li a.signup-btn{
-    background: #d0ece6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #d0ece6, #89CDAC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #d0ece6, #89CDAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #5af3d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5af3d2, #3ddc8f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5af3d2, #1fd27c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
 }
 /*Mobile Menu */
@@ -457,7 +457,7 @@ ul.nav li a.active{
 }
 .slicknav_nav ul li a{
     padding-left: 30px;
-    font-size: 12px;
+    font-size: 14px;
 }
 .slicknav_nav .slicknav_row:hover,
 .slicknav_nav a:hover{
@@ -480,7 +480,7 @@ ul.nav li a.active{
     background-repeat: no-repeat;
     background-position: top right;
     position: absolute;
-    width: 762px;
+    width: fit-content;
     height: 875px;
     right: 0;
     top: 0;
@@ -518,7 +518,7 @@ ul.nav li a.active{
     background-repeat: no-repeat;
     background-position: top right;
     position: absolute;
-    width: 500px;
+    width: fit-content;
     height: 607px;
     left: 0;
     top: 0;
@@ -536,13 +536,13 @@ ul.nav li a.active{
 .content-list li:before{
     position: absolute;
     content: "";
-    background: #d0ece6;
+    background: #5af3d2;
     width: 8px;
     height: 8px;
     border-radius: 50%;
     left: 0;
     top: 15px;
-    border: 3px solid #89CDAC;
+    border: 3px solid #3bca85;
     padding: 5px;
 }
 
@@ -588,7 +588,7 @@ ul.nav li a.active{
     background-repeat: no-repeat;
     background-position: left top;
     position: absolute;
-    width: 500px;
+    width: fit-content;
     height: 607px;
     right: 0;
     top: 0;
@@ -622,7 +622,7 @@ ul.nav li a.active{
     border-radius: 30px;
 }
 .testimonial-carousel .owl-nav div:hover{
-    color: #d0ece6;
+    color: #5af3d2;
 }
 
 /* ==========================================================================
@@ -631,6 +631,7 @@ ul.nav li a.active{
 .download-section{
     position: relative;
     z-index: 1;
+    padding-bottom: 80px;
 }
 .download-section .row{
     position: relative;
@@ -641,7 +642,7 @@ ul.nav li a.active{
     background-repeat: no-repeat;
     background-position: left top;
     position: absolute;
-    width: 600px;
+    width: fit-content;
     height: 642px;
     left: 0;
     top: 0;
@@ -650,7 +651,7 @@ ul.nav li a.active{
 .download-content{}
 .download-content span{
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
 }
 .download-content h2{
@@ -661,17 +662,6 @@ ul.nav li a.active{
 }
 .download-content .dl-btn a:hover{
     opacity: 0.8;
-}
-.dl-moc{
-    background-image: url(../img/download-moc.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    z-index: -1;
 }
 
 /* ==========================================================================
@@ -701,7 +691,7 @@ ul.nav li a.active{
     background-repeat: no-repeat;
     background-position: top right;
     position: absolute;
-    width: 600px;
+    width: fit-content;
     height: 637px;
     right: 0;
     top: 0;
@@ -726,10 +716,10 @@ ul.nav li a.active{
     border-radius: 2px;
 }
 .subscribe-form .submit-btn{
-    background-color: #d0ece6;
+    background-color: #5af3d2;
     text-transform: uppercase;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 2px;
     line-height: 50px;
     font-weight: 600;
@@ -746,7 +736,7 @@ ul.nav li a.active{
     display: none;
     margin-top: 15px;
     padding: 10px;
-    border: 1px solid #d0ece6;
+    border: 1px solid #5af3d2;
 }
 #subscribe-result.subs-result{
     display: block;
@@ -778,12 +768,12 @@ ul.nav li a.active{
     color: #555;
 }
 .widget-link li a:hover{
-    color: #d0ece6;
+    color: #5af3d2;
     text-decoration: underline;
 }
 .widget-link li i{
     margin-right: 10px;
-    color: #d0ece6;
+    color: #5af3d2;
 }
 .widget-social{
     margin-top: 20px;
@@ -799,12 +789,12 @@ ul.nav li a.active{
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-    color: #d0ece6;
-    font-size: 12px;
+    color: #00f8c2;
+    font-size: 14px;
     margin-right: 5px;
 }
 .widget-social li a:hover{
-    background-color: #d0ece6;
+    background-color: #5af3d2;
     color: #fff;
 }
 
@@ -828,7 +818,7 @@ ul.nav li a.active{
    Scroll To Top
    ========================================================================== */
 #scroll-to-top{
-    background-color: #d0ece6;
+    background-color: #5af3d2;
     display: none;
     width: 45px;
     height: 45px;
@@ -843,10 +833,27 @@ ul.nav li a.active{
     z-index: 999;
 }
 #scroll-to-top:hover{
-    background-color: #d0ece6;
+    background-color: #5af3d2;
     color: #fff;
     opacity: 0.8;
 }
+
+.send-msg-btn {
+    background: #5af3d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3ddc8f, #3ddc8f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5beb7a, #37d287); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    padding: 10px; 
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 600px){
 	#scroll-to-top{
 		bottom: 20px;

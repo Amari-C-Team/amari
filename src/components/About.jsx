@@ -1,5 +1,5 @@
 import React from 'react'
-import techImg from '../assets/img/content-1.png'
+import itServices from '../assets/img/it-services.jpeg'
 
 export default function About() {
     return (
@@ -20,7 +20,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="col-md-6 sm-padding">
-                    <img src={techImg} alt="content" />
+                    <img src={itServices} alt="content" />
                 </div>
                 </div>
             </div>

@@ -1,19 +1,23 @@
 import About from '../components/About'
+import FiverSection from '../components/FiverSection'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
+import Partner from '../components/Partner'
 import Reviews from '../components/Reviews'
 import Services from '../components/Services'
+import IndexNavbar from '../components/shared/IndexNavbar'
 // import WorkProcess from '../components/WorkProcess'
-import Navbar from '../components/shared/Navbar'
 
 export default function Home() {
   return (
     <>
-        <Navbar />
+        <IndexNavbar />
         <HeroSection />
         <Services />
         <About />
+        <FiverSection />
         <Reviews />
+        <Partner />
         <Footer />
     </>
   )
