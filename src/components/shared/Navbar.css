@@ -1,0 +1,63 @@
+/* IndexNavbar.css */
+
+.header-section {
+    background-color: #fff;
+}
+.navbar-nav {
+    background-color: #fff;
+  }
+  
+  .nav-link {
+    color: #000;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .collapse {
+    transition: max-height 0.3s ease;
+  }
+  
+  .show {
+    max-height: 1000px;
+  }
+
+  .nav-item .signup-btn {
+    background-color: #59F2CF;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+
+
+  
+  @media (max-width: 767.98px) {
+    .header-section {
+      
+    }
+  
+    .navbar-nav {
+      background-color: #c8c8c8 !important;
+      padding: 10px;
+    }
+
+    .nav-item .signup-btn {
+        background-color: #59F2CF;
+        color: #fff;
+        border-radius: 5px;
+        padding: 5px 20px;
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 10px;
+        text-align: center;
+      }
+  
+    .nav-link {
+      color: #fff !important;
+    }
+  }
+  

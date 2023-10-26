@@ -1,43 +1,72 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
-export default function Navbar() {
-    return (
-        <header id="header" className="header-section" style={{backgroundColor: '#fff'}}>
-            <div className="container">
-                <nav className="navbar">
-                    <a href="/" className="navbar-brand">
-                        <h3>
-                            AMARI
-                        </h3>
-                    </a>
-                    <div className="d-flex menu-wrap">
-                        <div id="navmenu" className="mainmenu">
-                            <ul className="nav">
-                                    <li>
-                                        <Link to="/" className="nav-link" data-scroll>Home</Link>
-                                                    <span className="sr-only">(current)</span>
-                                    </li>
-                                    <li>
-                                        <Link to="/" className="nav-link" data-scroll>Services</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/projects" className="nav-link" data-scroll>Projects</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/" className="nav-link" data-scroll>About</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/" className="nav-link" data-scroll>Reviews</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/contact" className="signup-btn">Reach Us</Link>
-                                    </li>
-                                </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </header> 
-    )
+export default function IndexNavbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <header
+      id="header"
+      className="header-section"
+    >
+      <div className="container">
+        <nav className="navbar navbar-expand-lg navbar-light">
+          <Link to="/" className="navbar-brand">
+            <h3>AMARI</h3>
+          </Link>
+          <button
+            className="navbar-toggler"
+            type="button"
+            aria-controls="basic-navbar-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            onClick={toggleNavbar}
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          
+          <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} >
+            <ul className="navbar-nav ml-auto" style={{backgroundColor: isOpen ? 'green' : '#fff'}}>
+              <li className="nav-item">
+                <Link to="/" className="nav-link" data-scroll style={{ color: isOpen ? '#fff' : '#000' }}>
+                  Home
+                  <span className="sr-only">(current)</span>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/" className="nav-link" data-scroll style={{ color: isOpen ? '#fff' : '#000' }}>
+                  Services
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/projects" className="nav-link" data-scroll style={{ color: isOpen ? '#fff' : '#000' }}>
+                  Projects
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/" className="nav-link" data-scroll style={{ color: isOpen ? '#fff' : '#000' }}>
+                  About
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/" className="nav-link" data-scroll style={{ color: isOpen ? '#fff' : '#000' }}>
+                  Reviews
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/contact" className="nav-link signup-btn">
+                  Reach Us
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  );
 }
